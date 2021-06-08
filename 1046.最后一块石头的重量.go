@@ -10,7 +10,6 @@ import (
  * [1046] 最后一块石头的重量
  */
 
-//贪心算法，局部最优解
 //Your runtime beats 100 % of golang submissions
 //Your memory usage beats 48.81 % of golang submissions (2 MB)
 
