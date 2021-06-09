@@ -1,5 +1,11 @@
 package main
 
+/*
+ * @lc app=leetcode.cn id=240 lang=golang
+ *
+ * [240]  搜索二维矩阵 II
+ */
+
 //评测题目: 无
 //编写一个高效的算法来搜索 m x n 矩阵 matrix 中的是否存在目标值 target 。该矩阵具有以下特性：
 
@@ -16,6 +22,8 @@ package main
 //输出：true
 
 //更优解
+
+// @lc code=start
 func searchMatrix(matrix [][]int, target int) bool {
 	m := len(matrix)
 	n := len(matrix[0])
@@ -33,6 +41,8 @@ func searchMatrix(matrix [][]int, target int) bool {
 	}
 	return false
 }
+
+// @lc code=end
 
 func match(matrix [][]int, target int, x, y int) bool {
 	if matrix[x][y] > target {
