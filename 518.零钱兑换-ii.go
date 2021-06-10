@@ -7,11 +7,31 @@ package main
  */
 
 // @lc code=start
+func change(amount int, coins []int) int {
+	dp := make([]int, amount+1)
+	//边界
+	dp[0] = 1
+	for _, coin := range coins {
+		for i := coin; i <= amount; i++ {
+			//当前值 = 不含当前硬币的组合数 + 含当前硬币的组合数
+			//含当前硬币的组合数dp[i-coin]，为扣掉1枚coin后的含当前硬币的组合数
+			dp[i] += dp[i-coin]
+		}
+	}
+	return dp[amount]
+}
 
-//动态规划实现
+// @lc code=end
+
+//x  1   2   3   4   5
+//1  1   1   1   1   1
+//2  1   2   2   3   3
+//5  1   2   2   3   3+1
+
+//二维动态规划实现（想复杂了）
 // Your runtime beats 5 % of golang submissions
 // Your memory usage beats 8.8 % of golang submissions (12.6 MB)
-func change(amount int, coins []int) int {
+func change1(amount int, coins []int) int {
 	if amount == 0 {
 		return 1
 	} else if len(coins) == 0 {
@@ -54,10 +74,3 @@ func change(amount int, coins []int) int {
 	}
 	return res
 }
-
-// @lc code=end
-
-//x  1   2   3   4   5
-//1  1   1   1   1   1
-//2  1   2   2   3   3
-//5  1   2   2   3   3+1
