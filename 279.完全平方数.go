@@ -1,5 +1,7 @@
 package main
 
+import "math"
+
 /*
  * @lc app=leetcode.cn id=279 lang=golang
  *
@@ -7,9 +9,15 @@ package main
  */
 
 //  Your runtime beats 43.59 % of golang submissions
-//  Your memory usage beats 75.72 % of golang submissions (6.1 MB)
+//  Your memory usage beats 92.61 % of golang submissions (5.9 MB)
+
 // @lc code=start
 func numSquares(n int) int {
+	y := int(math.Sqrt(float64(n)))
+	if y*y == n {
+		return 1
+	}
+
 	dp := make([]int, n+1)
 	x := 1
 	for i := 1; x <= n; i++ {
