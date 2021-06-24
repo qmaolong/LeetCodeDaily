@@ -11,42 +11,42 @@ func Test_maxPoints(t *testing.T) {
 		args args
 		want int
 	}{
-		// {
-		// 	name: "t1",
-		// 	args: args{
-		// 		points: [][]int{
-		// 			{1, 1}, {2, 2}, {3, 3},
-		// 		},
-		// 	},
-		// 	want: 3,
-		// },
-		// {
-		// 	name: "t2",
-		// 	args: args{
-		// 		points: [][]int{
-		// 			{1, 1}, {3, 2}, {5, 3}, {4, 1}, {2, 3}, {1, 4},
-		// 		},
-		// 	},
-		// 	want: 4,
-		// },
-		// {
-		// 	name: "t3",
-		// 	args: args{
-		// 		points: [][]int{
-		// 			{0, 0},
-		// 		},
-		// 	},
-		// 	want: 1,
-		// },
-		// {
-		// 	name: "t4",
-		// 	args: args{
-		// 		points: [][]int{
-		// 			{4, 5}, {4, -1}, {4, 0},
-		// 		},
-		// 	},
-		// 	want: 3,
-		// },
+		{
+			name: "t1",
+			args: args{
+				points: [][]int{
+					{1, 1}, {2, 2}, {3, 3},
+				},
+			},
+			want: 3,
+		},
+		{
+			name: "t2",
+			args: args{
+				points: [][]int{
+					{1, 1}, {3, 2}, {5, 3}, {4, 1}, {2, 3}, {1, 4},
+				},
+			},
+			want: 4,
+		},
+		{
+			name: "t3",
+			args: args{
+				points: [][]int{
+					{0, 0},
+				},
+			},
+			want: 1,
+		},
+		{
+			name: "t4",
+			args: args{
+				points: [][]int{
+					{4, 5}, {4, -1}, {4, 0},
+				},
+			},
+			want: 3,
+		},
 		{
 			name: "t5",
 			args: args{

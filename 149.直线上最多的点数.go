@@ -10,6 +10,7 @@ package main
 
 // @lc code=start
 func maxPoints(points [][]int) int {
+	l := len(points)
 
 	//判断3个点是否为一条直线
 	var ifLine = func(p1, p2, p3 []int) bool {
@@ -22,36 +23,32 @@ func maxPoints(points [][]int) int {
 		return (p1[0]-p2[0])*(p2[1]-p3[1]) == (p1[1]-p2[1])*(p2[0]-p3[0])
 	}
 
-	arr := make([][]*int, len(points))
+	arr := make([][]*int, l)
 	for i := range arr {
-		arr[i] = make([]*int, len(points))
+		arr[i] = make([]*int, l)
 	}
 
+	max := 1
 	for i := range points {
-		for j := i + 1; j < len(points); j++ {
-			if arr[i][j] != nil && *arr[i][j] > 0 {
+		for j := i + 1; j < l; j++ {
+			if arr[i][j] != nil {
 				continue
 			}
 			tCount := 2
 			arr[i][j] = &tCount
-			for k := j + 1; k < len(points); k++ {
+			for k := j + 1; k < l; k++ {
 				if ifLine(points[i], points[j], points[k]) {
 					tCount++
 					arr[i][k] = &tCount
 					arr[j][k] = &tCount
 				}
 			}
-		}
-	}
-
-	max := 1
-	for i := range arr {
-		for j := i + 1; j < len(arr[i]); j++ {
-			if arr[i][j] != nil && *arr[i][j] > max {
-				max = *arr[i][j]
+			if tCount > max {
+				max = tCount
 			}
 		}
 	}
+
 	return max
 }
 
