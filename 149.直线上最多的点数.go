@@ -5,6 +5,7 @@ package main
  *
  * [149] 直线上最多的点数
  */
+//  33/33 cases passed (4 ms)
 //  Your runtime beats 88.42 % of golang submissions
 //  Your memory usage beats 90.53 % of golang submissions (2.7 MB)
 
