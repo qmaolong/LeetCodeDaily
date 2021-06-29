@@ -36,10 +36,10 @@ func numBusesToDestination(routes [][]int, source int, target int) int {
 			return op.step
 		}
 		for i, r := range routesMap {
-			if r[op.point] && r[target] {
-				return op.step + 1
-			}
 			if r[op.point] {
+				if r[target] {
+					return op.step + 1
+				}
 				for _, p := range routes[i] {
 					if !sead[p] && p != op.point {
 						sead[p] = true
