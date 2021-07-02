@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
  * @lc app=leetcode.cn id=815 lang=golang
  *
@@ -30,6 +32,7 @@ func numBusesToDestination(routes [][]int, source int, target int) int {
 	sead := make(map[int]bool)
 	sead[source] = true
 	for len(queue) > 0 {
+		fmt.Println(len(queue))
 		op := queue[0]
 		queue = queue[1:]
 		if op.point == target {

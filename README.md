@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-02 [1833. 雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)（贪心算法）(59.46/88.59)
+
 > 2021-06-29 [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/)（10进制转26进制，考虑特殊情况）(100/100)
 
 > 2021-06-28 [815. 公交路线](https://leetcode-cn.com/problems/bus-routes/)（（图的广度优先遍历））(大数据量超时)
