@@ -11,6 +11,10 @@ import (
  * [726] 原子的数量
  */
 
+// 31/31 cases passed (0 ms)
+// Your runtime beats 100 % of golang submissions
+// Your memory usage beats 12.12 % of golang submissions (2.7 MB)
+
 // @lc code=start
 type Item struct {
 	str   string
@@ -22,7 +26,7 @@ type SortItem []Item
 
 func (a SortItem) Len() int           { return len(a) }
 func (a SortItem) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
-func (a SortItem) Less(i, j int) bool { return a[i].count < a[j].count }
+func (a SortItem) Less(i, j int) bool { return a[i].str < a[j].str }
 
 func countOfAtoms(formula string) string {
 	items := make([]Item, 0)
@@ -61,6 +65,23 @@ func countOfAtoms(formula string) string {
 			}
 		}
 		cursor++
+	}
+	m := make(map[string]*Item)
+	for i := range items {
+		v := items[i]
+		it := m[v.str]
+		for _, v1 := range v.plus {
+			v.count *= *v1
+		}
+		if it == nil {
+			m[v.str] = &v
+		} else {
+			it.count += v.count
+		}
+	}
+	items = make([]Item, 0)
+	for _, v := range m {
+		items = append(items, *v)
 	}
 	sort.Sort(SortItem(items))
 	res := ""

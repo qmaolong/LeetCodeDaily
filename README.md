@@ -1,5 +1,8 @@
 # LeetCodeDaily
 
+
+> 2021-07-05 [726. 原子的数量](https://leetcode-cn.com/problems/)(100%/12.12%)
+
 > 2021-07-04 [645. 错误的集合](https://leetcode-cn.com/problems/)
 
 > 2021-07-03 [451. 根据字符出现频率排序](https://leetcode-cn.com/problems/)

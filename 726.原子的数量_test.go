@@ -11,12 +11,19 @@ func Test_countOfAtoms(t *testing.T) {
 		args args
 		want string
 	}{
+		// {
+		// 	name: "t1",
+		// 	args: args{
+		// 		formula: "Mg(OH)2",
+		// 	},
+		// 	want: "H2MgO2",
+		// },
 		{
-			name: "t1",
+			name: "t2",
 			args: args{
-				formula: "Mg(OH)2",
+				formula: "K4(ON(SO3)2)2",
 			},
-			want: "H2MgO2",
+			want: "K4N2O14S4",
 		},
 	}
 	for _, tt := range tests {
