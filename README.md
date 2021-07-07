@@ -1,5 +1,6 @@
 # LeetCodeDaily
 
+> 2021-07-07 [1711. 大餐计数](https://leetcode-cn.com/problems/)（哈希）(53.45%/39.66%)
 
 > 2021-07-05 [726. 原子的数量](https://leetcode-cn.com/problems/)(100%/12.12%)
 
