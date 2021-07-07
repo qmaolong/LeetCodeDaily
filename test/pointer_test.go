@@ -26,7 +26,8 @@ func Test_pointer(t *testing.T) {
 	}
 	v1 := 1
 	v2 := 2
-	p1 := &v1
+	var p1 *int
+	p1 = &v1
 	p1 = &v2
 	v1 = 11
 	println(p1)
