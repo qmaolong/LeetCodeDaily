@@ -2,24 +2,24 @@ package leecode
 
 //输入一个字符串，打印出该字符串中字符的所有排列。
 //
-// 
 //
-// 你可以以任意顺序返回这个字符串数组，但里面不能有重复元素。 
 //
-// 
+// 你可以以任意顺序返回这个字符串数组，但里面不能有重复元素。
 //
-// 示例: 
+//
+//
+// 示例:
 //
 // 输入：s = "abc"
 //输出：["abc","acb","bac","bca","cab","cba"]
-// 
 //
-// 
 //
-// 限制： 
 //
-// 1 <= s 的长度 <= 8 
-// Related Topics 回溯算法 
+//
+// 限制：
+//
+// 1 <= s 的长度 <= 8
+// Related Topics 回溯算法
 // 👍 327 👎 0
 
 //执行耗时:68 ms,击败了28.18% 的Go用户
@@ -37,7 +37,7 @@ func permutation(s string) []string {
 	return all
 }
 
-func dfs(arr []byte, used []byte, res map[string]int)  {
+func dfs(arr []byte, used []byte, res map[string]int) {
 	if len(arr) == 0 {
 		s := string(used)
 		res[s] = 1

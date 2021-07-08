@@ -20,7 +20,7 @@ func Test_permutation(t *testing.T) {
 				s: "abc",
 			},
 			want: []string{
-				"abc","acb","bac","bca","cab","cba",
+				"abc", "acb", "bac", "bca", "cab", "cba",
 			},
 		},
 	}
