@@ -1,5 +1,5 @@
 # LeetCodeDaily
-> 2021-07-09 [面试题 17.10. 主要元素](https://leetcode-cn.com/problems/)（数组）（80.49%/78.86%)
+> 2021-07-09 [面试题 17.10. 主要元素](https://leetcode-cn.com/problems/find-majority-element-lcci/)（数组）（80.49%/78.86%)
 
 > 2021-07-08 [930. 和相同的二元子数组](https://leetcode-cn.com/problems/)（前缀和+哈希）（98%/52%)
 
