@@ -9,8 +9,8 @@ package main
 // @lc code=start
 func stoneGameIII(stoneValue []int) string {
 	prefixSum := make([]int, len(stoneValue))
-	aScore := 0
-	bScore := 0
+	// aScore := 0
+	// bScore := 0
 	for i, v := range stoneValue {
 		if i == 0 {
 			prefixSum[i] = v
@@ -18,6 +18,8 @@ func stoneGameIII(stoneValue []int) string {
 			prefixSum[i] = prefixSum[i-1] + v
 		}
 	}
+	//TODO
+	return ""
 
 }
 
