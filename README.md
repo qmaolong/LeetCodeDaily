@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-14 [1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging)（数组）（76.47%/53.78%)
+
 > 2021-07-14 [1818. 绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/)（数组）（79.66%/100%)
 
 > 2021-07-09 [面试题 17.10. 主要元素](https://leetcode-cn.com/problems/find-majority-element-lcci/)（数组）（80.49%/78.86%)
