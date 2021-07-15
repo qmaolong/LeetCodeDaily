@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-14 [1860 增长的内存泄露](https://leetcode-cn.com/problems/incremental-memory-leak/)（100%/60.76%)
+
 > 2021-07-14 [1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging)（数组）（76.47%/53.78%)
 
 > 2021-07-14 [1818. 绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/)（数组）（79.66%/100%)
