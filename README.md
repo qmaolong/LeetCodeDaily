@@ -1,6 +1,6 @@
 # LeetCodeDaily
 
-> 2021-07-16 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)（数组）（81%/59%)
+> 2021-07-16 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)（二分法）（81%/59%)
 
 > 2021-07-15 [1860 增长的内存泄露](https://leetcode-cn.com/problems/incremental-memory-leak/)（100%/60.76%)
 
