@@ -1,6 +1,8 @@
 # LeetCodeDaily
 
-> 2021-07-16 [1838.最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)（前缀和+滑动窗口）（96%/30%)
+> 2021-07-19 [919.完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter/)（完全二叉树+BFS）（96%/25%)
+
+> 2021-07-19 [1838.最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)（前缀和+滑动窗口）（96%/30%)
 
 > 2021-07-16 [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)（二分法）（81%/59%)
 
