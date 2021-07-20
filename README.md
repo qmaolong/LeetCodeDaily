@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-20 [1877.数组中最大数对和的最小值](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/)（92%/51%)
+
 > 2021-07-19 [919.完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter/)（完全二叉树+BFS）（96%/25%)
 
 > 2021-07-19 [1838.最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)（前缀和+滑动窗口）（96%/30%)
