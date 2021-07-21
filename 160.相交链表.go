@@ -17,7 +17,7 @@ package main
 //  时间复杂度2（max(m,n)）,空间复杂度4
 //	可优化至时间复杂度m+n，空间复杂度2
 //	思路：无需计算链表长度，利用m+n=n+m达到步伐一致
-func getIntersectionNode(headA, headB *ListNode) *ListNode {
+func getIntersectionNode1(headA, headB *ListNode) *ListNode {
 	var aLen, bLen int
 	aCursor := headA
 	bCursor := headB
