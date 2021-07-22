@@ -1,32 +1,30 @@
 package main
 
 import (
-	"reflect"
 	"testing"
 )
 
 func Test_copyRandomList(t *testing.T) {
-	n1 := Node{
-		Val: 7,
-	}
-	n2 := Node{
-		Val: 13,
-	}
-	n3 := Node{
-		Val: 11,
-	}
-	n4 := Node{
-		Val: 10,
-	}
-
 	n5 := Node{
 		Val:  1,
 		Next: nil,
 	}
-	n1.Next = &n2
-	n2.Next = &n3
-	n3.Next = &n4
-	n4.Next = &n5
+	n4 := Node{
+		Val:  10,
+		Next: &n5,
+	}
+	n3 := Node{
+		Val:  11,
+		Next: &n4,
+	}
+	n2 := Node{
+		Val:  13,
+		Next: &n3,
+	}
+	n1 := Node{
+		Val:  7,
+		Next: &n2,
+	}
 	n1.Random = nil
 	n2.Random = &n1
 	n3.Random = &n5
@@ -39,21 +37,39 @@ func Test_copyRandomList(t *testing.T) {
 	tests := []struct {
 		name string
 		args args
-		want *Node
 	}{
 		{
 			name: "t1",
 			args: args{
 				head: &n1,
 			},
-			want: nil,
 		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := copyRandomList(tt.args.head); !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("copyRandomList() = %v, want %v", got, tt.want)
+			got := copyRandomList(tt.args.head)
+			c1 := tt.args.head
+			c2 := got
+			for c1 != nil || c2 != nil {
+				if c1.Val != c2.Val {
+					t.Errorf("复制出错")
+				}
+				if !nodeEqual(c1.Random, c2.Random) {
+					t.Error("随机指针出错")
+				}
+				c1 = c1.Next
+				c2 = c2.Next
 			}
 		})
 	}
+}
+
+func nodeEqual(node1 *Node, node2 *Node) bool {
+	if node1 == nil && node2 == nil {
+		return true
+	}
+	if node1 != nil && node2 != nil && node1.Val == node2.Val {
+		return true
+	}
+	return false
 }
