@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-23 [1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)（100%/20.18%)
+
 > 2021-07-22 [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（链表深拷贝）（100%/7.95%)
 
 > 2021-07-21 [1227. 飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/)（动态规划）（100%/100%)
