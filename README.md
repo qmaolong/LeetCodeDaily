@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-27 [671. 二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)（树+DFS）（100%/98.9%)
+
 > 2021-07-23 [1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)（100%/20.18%)
 
 > 2021-07-22 [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)（链表深拷贝）（100%/7.95%)
