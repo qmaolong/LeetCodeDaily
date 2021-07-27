@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-27 [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)（二叉搜索树）（95.6%/98.41%)
+
 > 2021-07-27 [671. 二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)（树+DFS）（100%/98.9%)
 
 > 2021-07-23 [1893. 检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)（100%/20.18%)
