@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-27 [1713. 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)（贪心 + 二分查找）（31.33%/71.11%)
+
 > 2021-07-27 [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)（二叉搜索树）（95.6%/98.41%)
 
 > 2021-07-27 [671. 二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)（树+DFS）（100%/98.9%)
