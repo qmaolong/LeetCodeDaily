@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-29 [1104. 二叉树寻路](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/)（二叉树）（100%/80%)
+
 > 2021-07-28 [863. 二叉树中所有距离为 K 的结点](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/)（二叉树 + DFS + 哈希）（31.33%/71.11%)
 
 > 2021-07-28 [1713. 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)（贪心 + 二分查找）（31.33%/71.11%)
