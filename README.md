@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-07-30 [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/)（进制转换）（100%/100%)
+
 > 2021-07-29 [1104. 二叉树寻路](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/)（二叉树）（100%/80%)
 
 > 2021-07-28 [863. 二叉树中所有距离为 K 的结点](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/)（二叉树 + DFS + 哈希）（45.13%/12.5%)
