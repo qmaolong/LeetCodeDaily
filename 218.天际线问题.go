@@ -13,11 +13,11 @@ func getSkyline(buildings [][]int) [][]int {
 		optimizeBuildings(&v, &optimized)
 	}
 	res := make([][]int, 0)
-	for _, v := range optimized {
-		left := []int{v[0], v[2]}
-		right := []int{v[1], v[2]}
+	// for _, v := range optimized {
+	// 	left := []int{v[0], v[2]}
+	// 	right := []int{v[1], v[2]}
 
-	}
+	// }
 	return res
 }
 
