@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-08-04 [743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/)（BFS）（19.2%/21.03%)
+
 > 2021-08-04 [611. 有效三角形的个数](https://leetcode-cn.com/problems/valid-triangle-number/)（双指针）（100%/71.95%)
 
 > 2021-07-30 [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/)（进制转换）（100%/100%)

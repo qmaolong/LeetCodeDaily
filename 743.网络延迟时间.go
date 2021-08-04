@@ -6,6 +6,10 @@ package main
  * [743] 网络延迟时间
  */
 
+// 52/52 cases passed (80 ms)
+// Your runtime beats 16.32 % of golang submissions
+// Your memory usage beats 13.68 % of golang submissions (7.6 MB)
+
 // @lc code=start
 func networkDelayTime(times [][]int, n int, k int) int {
 	queue := make([][]int, 0)
@@ -18,6 +22,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 	}
 	queue = append(queue, []int{k, 0})
 	sead := make(map[int]int)
+	sead[k] = 0
 	for len(queue) != 0 {
 		q := queue[0]
 		queue = queue[1:]

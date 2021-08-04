@@ -13,33 +13,33 @@ func Test_networkDelayTime(t *testing.T) {
 		args args
 		want int
 	}{
-		// {
-		// 	name: "t1",
-		// 	args: args{
-		// 		times: [][]int{{2, 1, 1}, {2, 3, 1}, {3, 4, 1}},
-		// 		n:     4,
-		// 		k:     2,
-		// 	},
-		// 	want: 2,
-		// },
-		// {
-		// 	name: "t2",
-		// 	args: args{
-		// 		times: [][]int{{1, 2, 1}},
-		// 		n:     2,
-		// 		k:     1,
-		// 	},
-		// 	want: 1,
-		// },
-		// {
-		// 	name: "t3",
-		// 	args: args{
-		// 		times: [][]int{{1, 2, 1}, {2, 3, 2}, {1, 3, 4}},
-		// 		n:     3,
-		// 		k:     1,
-		// 	},
-		// 	want: 3,
-		// },
+		{
+			name: "t1",
+			args: args{
+				times: [][]int{{2, 1, 1}, {2, 3, 1}, {3, 4, 1}},
+				n:     4,
+				k:     2,
+			},
+			want: 2,
+		},
+		{
+			name: "t2",
+			args: args{
+				times: [][]int{{1, 2, 1}},
+				n:     2,
+				k:     1,
+			},
+			want: 1,
+		},
+		{
+			name: "t3",
+			args: args{
+				times: [][]int{{1, 2, 1}, {2, 3, 2}, {1, 3, 4}},
+				n:     3,
+				k:     1,
+			},
+			want: 3,
+		},
 		{
 			name: "t4",
 			args: args{
