@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-08-05 [802. 找到最终的安全状态](https://leetcode-cn.com/problems/find-eventual-safe-states/)（DFS+三色标记）（37.5%/97.92%)
+
 > 2021-08-04 [743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/)（BFS）（19.2%/21.03%)
 
 > 2021-08-04 [611. 有效三角形的个数](https://leetcode-cn.com/problems/valid-triangle-number/)（双指针）（100%/71.95%)
