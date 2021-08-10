@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": ".leetcode_e1894842"
+        },
+        {
             "name": "Launch",
             "type": "go",
             "request": "launch",
