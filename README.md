@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-08-10 [413. 等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/)（数组+双指针）（100%/100%)
+
 > 2021-08-05 [802. 找到最终的安全状态](https://leetcode-cn.com/problems/find-eventual-safe-states/)（DFS+三色标记）（37.5%/97.92%)
 
 > 2021-08-04 [743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/)（BFS）（19.2%/21.03%)
