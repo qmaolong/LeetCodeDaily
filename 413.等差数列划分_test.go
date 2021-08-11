@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func Test_numberOfArithmeticSlices(t *testing.T) {
+func Test_numberOfArithmeticSlices1(t *testing.T) {
 	type args struct {
 		nums []int
 	}
@@ -28,7 +28,7 @@ func Test_numberOfArithmeticSlices(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := numberOfArithmeticSlices(tt.args.nums); got != tt.want {
+			if got := numberOfArithmeticSlices1(tt.args.nums); got != tt.want {
 				t.Errorf("numberOfArithmeticSlices() = %v, want %v", got, tt.want)
 			}
 		})

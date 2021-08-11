@@ -10,7 +10,7 @@ package main
 // Your memory usage beats 100 % of golang submissions (2.2 MB)
 
 // @lc code=start
-func numberOfArithmeticSlices(nums []int) int {
+func numberOfArithmeticSlices1(nums []int) int {
 	if len(nums) < 3 {
 		return 0
 	}
