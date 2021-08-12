@@ -11,7 +11,13 @@ func Test_numberOfArithmeticSlices(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
+		{
+			name: "t1",
+			args: args{
+				nums: []int{2, 4, 6, 8, 10},
+			},
+			want: 7,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

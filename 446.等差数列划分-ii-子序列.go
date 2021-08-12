@@ -7,21 +7,18 @@ package main
  */
 
 // @lc code=start
-func numberOfArithmeticSlices(nums []int) int {
-	m := make(map[int]bool)
-	for _, v := range nums {
-		m[v] = true
+func numberOfArithmeticSlices(nums []int) (ans int) {
+	f := make([]map[int]int, len(nums))
+	for i, x := range nums {
+		f[i] = map[int]int{}
+		for j, y := range nums[:i] {
+			d := x - y
+			cnt := f[j][d]
+			ans += cnt
+			f[i][d] += cnt + 1
+		}
 	}
-	res := 0
-	// dp := make([]map[int]int, 0)
-	// for i, v := range nums {
-	// 	for j := i + 1; j < len(nums); j++ {
-	// 		v2 := nums[j]
-	// 		dis := v2 - v
-
-	// 	}
-	// }
-	return res
+	return
 }
 
 // @lc code=end
