@@ -1,5 +1,9 @@
 # LeetCodeDaily
 
+> 2021-08-12 [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)88.2%/6.23%)
+
+> 2021-08-11 [446. 等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/)（动态规划）（TODO)
+
 > 2021-08-10 [413. 等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/)（数组+双指针）（100%/100%)
 
 > 2021-08-05 [802. 找到最终的安全状态](https://leetcode-cn.com/problems/find-eventual-safe-states/)（DFS+三色标记）（37.5%/97.92%)
