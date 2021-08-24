@@ -1,6 +1,8 @@
 # LeetCodeDaily
 
-> 2021-08-12 [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)88.2%/6.23%)
+> 2021-08-24 [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)（out of memory)
+
+> 2021-08-12 [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)（88.2%/6.23%)
 
 > 2021-08-11 [446. 等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/)（动态规划）（TODO)
 
