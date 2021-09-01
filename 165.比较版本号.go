@@ -26,10 +26,10 @@ func compareVersion(version1 string, version2 string) int {
 	for i := 0; i < l; i++ {
 		n1 := 0
 		n2 := 0
-		if len(arr1)-1 >= i {
+		if len(arr1) > i {
 			n1, _ = strconv.Atoi(arr1[i])
 		}
-		if len(arr2)-1 >= i {
+		if len(arr2) > i {
 			n2, _ = strconv.Atoi(arr2[i])
 		}
 		if n1 > n2 {
