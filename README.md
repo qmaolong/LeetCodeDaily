@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-09-01 [165. 比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/)（100%/79.15%)
+
 > 2021-08-24 [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)（out of memory)
 
 > 2021-08-12 [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)（88.2%/6.23%)
