@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-09-03 [面试题 17.14. 最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)（排序）（36.77%/50%)
+
 > 2021-09-02 [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)（链表+双指针）（100%/100%)
 
 > 2021-09-01 [165. 比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/)（100%/79.15%)
