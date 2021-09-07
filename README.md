@@ -1,6 +1,9 @@
 # LeetCodeDaily
 
 
+> 2021-09-07 [1221. 分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)（100%/100%)
+
+
 > 2021-09-06 [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)（二分查找）（84.4%/82.29%)
 
 > 2021-09-03 [面试题 17.14. 最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)（排序）（36.77%/50%)
