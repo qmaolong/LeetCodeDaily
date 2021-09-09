@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-09-09 [68. 文本左右对齐](https://leetcode-cn.com/problems/text-justification/)（51.71%/20.24%)
+
 
 > 2021-09-07 [1221. 分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)（100%/100%)
 

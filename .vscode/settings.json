@@ -3,5 +3,15 @@
         "src/main/java",
         "leetcode/editor/cn",
         "src/test/java"
-    ]
+    ],
+    "leetcode.filePath": {
+        "java": {
+            "folder": "",
+            "filename": "src/main/java/${id}.${kebab-case-name}.${ext}"
+        },
+        "default": {
+            "folder": "",
+            "filename": "${id}.${kebab-case-name}.${ext}"
+        }
+    }
 }
