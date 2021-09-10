@@ -1,10 +1,10 @@
 # LeetCodeDaily
 
+> 2021-09-10 [1894. 找到需要补充粉笔的学生编号](https://leetcode-cn.com/problems/find-the-student-that-will-replace-the-chalk/)（94.23%/69.23%)
+
 > 2021-09-09 [68. 文本左右对齐](https://leetcode-cn.com/problems/text-justification/)（51.71%/20.24%)
 
-
 > 2021-09-07 [1221. 分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)（100%/100%)
-
 
 > 2021-09-06 [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)（二分查找）（84.4%/82.29%)
 
