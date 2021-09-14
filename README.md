@@ -1,5 +1,7 @@
 # LeetCodeDaily
 
+> 2021-09-14 [524. 通过删除字母匹配到字典里最长单词](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)（字符串匹配）（79.31%/70.34%)
+
 > 2021-09-10 [1894. 找到需要补充粉笔的学生编号](https://leetcode-cn.com/problems/find-the-student-that-will-replace-the-chalk/)（94.23%/69.23%)
 
 > 2021-09-09 [68. 文本左右对齐](https://leetcode-cn.com/problems/text-justification/)（51.71%/20.24%)
